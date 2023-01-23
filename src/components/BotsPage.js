@@ -8,7 +8,7 @@ function BotsPage() {
   const [yourBots, setYourBots] = React.useState([])
 
   React.useEffect(() => {
-    fetch("http://localhost:8002/bots")
+    fetch("https://api.npoint.io/afd19535ff8ced2e3458/bots/")
       .then((r) => r.json())
       .then((bots) => setBots(bots));
   }, []);
