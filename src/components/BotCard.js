@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 const botTypeClasses = {
   Assault: "icon military",
   Defender: "icon shield",
@@ -11,9 +13,9 @@ const botTypeClasses = {
 
 function BotCard({ bot, botFunction }) {
   return (
-    <div className="ui column">
+    <div className="ui column" style={{backgroundColor: "black"}}>
       <div
-        className="ui card"
+        className="card text-bg-secondary mb-3"
         key={bot.id}
         onClick={() => botFunction(bot)}
       >

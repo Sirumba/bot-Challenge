@@ -3,7 +3,7 @@ import YourBotArmy from "./YourBotArmy";
 import BotCollection from "./BotCollection";
 
 function BotsPage() {
-  //start here with your code for step one
+
   const [bots, setBots] = React.useState([])
   const [yourBots, setYourBots] = React.useState([])
 
